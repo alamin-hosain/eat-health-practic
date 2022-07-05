@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top{
+    margin-top: 50px;
+}
+.flexible-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 45%;
+}
+.eat-healthy h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #575757;
+    margin-bottom: 20px;
+
+}
+.orange-color{
+    color: #FBA24F;
+}
+
+.eat-healthy p{
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.btn{
+    color: white;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+   
+}
+.right-img{
+    background-image: url(./images/shapes/Group\ 8450.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.right-img img{
+    width: 80%;
+}
+
+.leftimage img{
+    width: 50%;
+}
+
+.second{
+    margin-top: 50px;
+    background-image: url(./images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about-me h2{
+    color: #707070;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.about-me p{
+    margin-bottom: 100px;
+    line-height: 2;
+}
+
+.heading{
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px 50px 30px 50px;
+    text-align: center;
+}
+
+.heading h2{
+    color: #676767;
+    margin: 0 0 30px 0;
+}
+
+.heading p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.below{
+    display: flex;
+    padding: 0 5%;
+}
+
+.box{
+    box-shadow: 2px 2px 40px gray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 60px;
+}
+.box img{
+    width: 95%;
+}
+
+.box h3{
+    margin: 30px 0 10px 0;
+}
+
+.stats{
+    box-shadow: 2px 2px 40px gray;
+    width: 88%;
+    margin: 0 auto;
+    border-radius: 20PX;
+}
+.stats-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 40PX 0;
+}
+.stats-main p{
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    color: #676767;
+    text-align: center;
+    margin-top: 70px;
+    height: 150px;
+    padding: 50px;
+}
+
+footer p{
+    color: white;
+    margin-top: 40px;
+}
